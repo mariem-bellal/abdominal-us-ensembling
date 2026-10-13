@@ -1,0 +1,26 @@
+# ============================================================
+# IMPORTANT: Install PyTorch WITH CUDA FIRST, before this file.
+# https://pytorch.org/get-started/locally/
+#
+# Example (CUDA 12.1):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#
+# Then:
+#   pip install -r requirements.txt
+# ============================================================
+
+# Core
+ultralytics>=8.1.0
+pandas>=2.0.0
+pyyaml>=6.0
+opencv-python-headless>=4.8.0
+matplotlib>=3.7.0
+pillow>=10.0.0
+numpy>=1.24.0
+
+# Ensemble (WBF + mAP evaluation)
+ensemble-boxes>=1.0.9
+mean-average-precision>=2021.4.26.0
+
+# Report generation
+reportlab>=4.0.0
